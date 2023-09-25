@@ -1,0 +1,11 @@
+video{
+    width: 500px;
+}
+p{
+    text-align: justify;
+}
+.footer{
+    text-align: center;
+    background-color: bisque;
+    padding: 2%;
+}
