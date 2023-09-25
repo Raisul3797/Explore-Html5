@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        h1{
+            text-align: center;
+            color: rgb(220, 73, 5);
+        }
+        body{
+            margin: 0 auto;
+            height: 930px;
+            width: 500px;
+            border: 5px solid burlywood;
+            background-color: rgb(34, 162, 162);
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="">
+        <p>Name: <input type="text" placeholder="Enter Your Name"></p>
+        <p>Email: <input type="email" placeholder="Enter Your Email"></p>
+        <p>Date of Birth: <input type="date"></p>
+        <p>Insert: <input type="file"></p>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <p><input type="radio" name="gender" id="male">Male</p>
+            <p><input type="radio" name="gender" id="female">Female</p>
+        </fieldset>
+        <fieldset>
+            <legend>Skills</legend>
+                <p><input type="checkbox" name="skills" id="">Playing</p>
+                <p><input type="checkbox" name="skills" id="">Reading</p>
+                <p><input type="checkbox" name="skills" id="">Riding</p>            
+        </fieldset>
+        <p>Comments: <br><textarea name="text-area" id="txt" cols="30" rows="10"></textarea></p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
