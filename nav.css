@@ -9,10 +9,28 @@ li a:hover{
     color: red;
     
 }
-nav ul{
+nav > ul{
     display: flex ;
+}
+nav > ul >li:hover > ul{
+    display: block;
 }
 nav{
     background-color: aquamarine;
     padding: .3%;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: darkgoldenrod;
+    padding: 0;
+}
+.cls1{
+    background-color: rgb(18, 131, 93);
+}
+.cls2{
+    background-color: rgb(61, 22, 187);
+}
+.cls3{
+    background-color: rgb(183, 44, 125);
 }

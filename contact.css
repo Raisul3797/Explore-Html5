@@ -1,0 +1,15 @@
+body{
+    margin: 0 auto;
+    height: 600px;
+    width: 550px;
+    border: 5px solid rebeccapurple;
+    margin-top: 20px;
+    padding: 10px;
+    color: rgb(240, 19, 119);
+}
+h1{
+    text-align: center;
+}
+div{
+    margin-top: 10px;
+}
