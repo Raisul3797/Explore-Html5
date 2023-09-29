@@ -4,8 +4,39 @@ video{
 p{
     text-align: justify;
 }
+h1{
+    background-color: rgb(51, 164, 51);
+    text-align: center;
+
+}
+.media{
+    background-color: darkmagenta;
+    /* margin-right: 50px; */
+    /* display: flex; */
+}
+.container{
+    background-color: chocolate;
+
+}
 .footer{
     text-align: center;
-    background-color: bisque;
+    background-color: rgb(28, 165, 203);
     padding: 2%;
+    clear: left;
+}
+.blog{
+    background-color: aqua;
+    height: 400px;
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+    clear: right;
+    /* overflow: auto; */
+}
+.gallery{
+    clear: both;
+    background-color: darkgoldenrod;
+    padding: 5px;
+    margin-bottom: 10px;
 }
